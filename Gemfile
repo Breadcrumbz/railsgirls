@@ -11,8 +11,11 @@ end
 group :production do
   gem 'pg'
 end
-gem 'carrierwave'
  # add carrierwave
+gem 'carrierwave'
+# use mini_magick
+gem 'mini_magick', '4.8.0'
+
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
